@@ -18,11 +18,23 @@ const Dashboard = () => {
             className="bg-blue-100 hover:bg-blue-200 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 ease-in-out transform hover:scale-105"
             href="dashboard/tasks"
           >
-            <div className="">
-              <h2>任务</h2>
-              <span>任务列表</span>
+            <div className=" flex items-center justify-between">
+              <h2 className=" text-xl font-semibold text-blue-800">任务</h2>
+              <span className=" text-2xl text-blue-600">📄</span>
             </div>
-            <p>查看管理您的任务列表</p>
+            <p className=" pext-gray-600 mt-2">查看管理您的任务列表</p>
+          </Link>
+
+          {/* 分析卡片 */}
+          <Link
+            className="bg-blue-100 hover:bg-blue-200 p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 ease-in-out transform hover:scale-105"
+            href="dashboard/analysis"
+          >
+            <div className=" flex items-center justify-between">
+              <h2 className=" text-xl font-semibold text-blue-800">分析</h2>
+              <span className=" text-2xl text-blue-600">📊</span>
+            </div>
+            <p className=" pext-gray-600 mt-2">查看管理您的分析数据</p>
           </Link>
         </div>
       </div>
