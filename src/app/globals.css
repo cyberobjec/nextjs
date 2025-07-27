@@ -4,4 +4,18 @@
   .metric-card {
     @apply max-w-7xl mx-auto bg-white rounded-lg shadow-xl p-8;
   }
+  .mian-bg {
+    @apply min-h-screen bg-gradient-to-br from-blue-50 via-indigo-500/30
+
+    mask-b-to-purple-800
+    p-10;
+  }
+
+  .title-text {
+    @apply text-4xl font-extrabold text-gray-900 mb-6;
+  }
+
+  .doc-fonts {
+    @apply text-gray-600 text-lg mb-8 max-w-2xl;
+  }
 }
